@@ -11,7 +11,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
 }
 
 h1, h2 {
@@ -31,22 +31,26 @@ h1, h2 {
 
 .calificacion {
     height: 30px;
-    width: 60px;
-    font-size: 1em;
+    width: 30px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding-left: 5px;
+    color: rgb(16, 150, 173);
 }
 
 button {
     width: 120px;
     height: 35px;
     border-radius: 5px;
-    background-color: #8f958f;
+    background-color: #979a8c;
     border: none;
     color: #fff;
     font-size: 1em;
     cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,.1);
 }
 button:hover {
-    background-color: #8eb08e;
+    background-color: #adb08e;
 }
 
 .ratings-chart {
@@ -64,13 +68,13 @@ button:hover {
     width: 50%;
     height: 40px;
     border-radius: 7px;
-    background-color: #e0e0e0;
+    background-color: #e2e1e197;
     border: 2px solid #ccc;
     display: flex;
     overflow: hidden;
 }
 .barraCalificacion:hover {
-    background-color: #e0e55a89;
+    background-color: rgb(255, 246, 244);
     border: 2px solid #c3be70;
 }
 
@@ -79,13 +83,20 @@ button:hover {
     transition: width 0.5s ease-in-out;
 }
 
-.bar-1 { background-color: #ffc107; }
-.bar-2 { background-color: #ffc107; }
-.bar-3 { background-color: #ffc107; }
-.bar-4 { background-color: #ffc107; }
-.bar-5 { background-color: #ffc107; }
+.bar-1 { background-color: rgb(255, 164, 28); }
+.bar-2 { background-color: rgb(255, 164, 28);; }
+.bar-3 { background-color: rgb(255, 164, 28);; }
+.bar-4 { background-color: rgb(255, 164, 28);; }
+.bar-5 { background-color: rgb(255, 164, 28);; }
 
 p, h4 {
+    padding-left: 5px;
     margin: 5px 0;
-    color: #333;
+    color: rgb(16, 150, 173);
 }
+
+.label{
+    padding-right: 5px;
+    color: rgb(16, 150, 173);
+}
+

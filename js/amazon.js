@@ -28,7 +28,8 @@ btngraficar.addEventListener("click", function () {
 });
 
 function actualizarBarra(elemento, porcentaje, claseBarra) {
-    porcentaje = Math.round(porcentaje); // Redondea el porcentaje
+    porcentaje = Math.round(porcentaje); 
     elemento.innerHTML = porcentaje + "%";
     elemento.parentNode.querySelector("." + claseBarra).style.width = porcentaje + "%";
 }
+
