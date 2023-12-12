@@ -55,7 +55,7 @@ button:hover {
 
 .content {
     display: flex;
-justify-content: center;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -70,10 +70,8 @@ justify-content: center;
     overflow: hidden;
 }
 .barraCalificacion:hover {
-
     background-color: #e0e55a89;
     border: 2px solid #c3be70;
-
 }
 
 .puntaje {
