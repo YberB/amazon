@@ -3,6 +3,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url('/img/R.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 
 .container {
@@ -11,7 +15,6 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
- 
 }
 
 h1, h2 {
@@ -75,7 +78,7 @@ button:hover {
 }
 .barraCalificacion:hover {
     background-color: rgb(255, 246, 244);
-    border: 2px solid #c3be70;
+    border: 2px solid #e8a663;
 }
 
 .puntaje {
