@@ -1,67 +1,93 @@
-.block{
-margin-left: 25%;
-background-color: rgba(93, 97, 95, 0.482);
-padding: 50px;
-width: 300px;
-border-radius: 5px;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-label{
-    font-size: 1.2em;
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"]{
-margin-bottom: 20px;
-display: block;
-height: 30px;
-border: 1px solid rgb(64, 64, 64,.8);
-font-size: 1.4em;
-font-family: sans-serif;
+h1, h2 {
+    text-align: center;
+    color: #333;
 }
 
-input[type="button"]{
-    width: 170px;
-    height: 35px;
-    margin-left: 10%;
-    border-radius: 5px;
-    background-color: rgba(107, 112, 112, 0.485);
-    border: none;
-    color: rgb(248, 248, 248);
-    font-size: 1em;
-    font-weight: 900;
-}
-
-.btngraficar{
-margin-bottom: 50px;
-}
-
-.bar1,.bar2,.bar3,.bar4,.bar5{
-background-color: aliceblue;
-border-radius: 3px;
-width: 170px;
-height: 45px;
-}
-
-.content{
-    width: 300px;
+.ratings-input {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
-.barraCalificacion{
-    margin-top: 200px;
-    margin-left: 50px;
-    width: 200px;
+.rating {
+    margin-bottom: 10px;
+}
+
+.calificacion {
+    height: 30px;
+    width: 60px;
+    font-size: 1em;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #8f958f;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #8eb08e;
+}
+
+.ratings-chart {
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.barraCalificacion {
+    width: 50%;
     height: 40px;
     border-radius: 7px;
-    background-color: aliceblue;
-    border: 2px solid rgb(200, 200, 200);
+    background-color: #e0e0e0;
+    border: 2px solid #ccc;
+    display: flex;
+    overflow: hidden;
+}
+.barraCalificacion:hover {
+
+    background-color: #e0e55a89;
+    border: 2px solid #c3be70;
+
 }
 
-.puntaje.barra-1{
+.puntaje {
     height: 40px;
-    background-color: blanchedalmond;
-    width: 50px;
+    transition: width 0.5s ease-in-out;
+}
+
+.bar-1 { background-color: #ffc107; }
+.bar-2 { background-color: #ffc107; }
+.bar-3 { background-color: #ffc107; }
+.bar-4 { background-color: #ffc107; }
+.bar-5 { background-color: #ffc107; }
+
+p, h4 {
+    margin: 5px 0;
+    color: #333;
 }
